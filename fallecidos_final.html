@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title</title>
+</head>
+
+<body>
+
+<LINK REL=StyleSheet HREF="styles.css" TYPE="text/css" MEDIA=screen>
+   
+   <div class="ENCABEZADO"> 
+  <a><img src="imagenes/Imagen_1.png"></a>
+  <div class="TITULO">INFORMACIÓN Y GRÁFICOS PRECTIVOS DEL COVID-19 EN EL PERÚ</div></div>
+    
+   <div class="CONTENEDOR_ICONOS_HOSPITALIZADOS"> 
+  <a href="index.html"><img  src="imagenes/Imagen_39.png"></a>
+  <a href="fallecidos_final.html"><img  src="imagenes/Imagen_7.png"></a>
+  <a href="HOSPITALIZADOS.html"><img  src="imagenes/Imagen_36.png"></a>
+  <a href="positivo_final.html"><img  src="imagenes/Imagen_37.png"></a>
+  <a href="recuperado.html"><img  src="imagenes/Imagen_10.png"></a><BR><br>
+  <TABLE >
+    <TR>
+    <td>INICIO</td>
+    <td>FALLECIDOS</td>
+    <td>HOSPITALIZADOS</td>
+    <td>POSITIVOS</td>
+    <td>RECUPERADOS</td>
+    </TR>
+  </TABLE>
+  </div>
+<div class="PIE_PAGINA1"> 
+ <img src="imagenes/Imagen_30.png">
+  <div class="PIE_NOSOTROS">
+    INFORMATE MAS<BR>
+    <a href="nosotros.html">¿Quiénes somos?<br>Finalidad de la página<br><br><br></a>
+    DATOS SACADOS DE:<br>
+    <a href="https://www.minsa.gob.pe/datosabiertos/" target="_blank">MINSA<br></a>
+    <a href="https://www.minsa.gob.pe/datosabiertos/?op=22#" target="_blank">SINADEF</a>
+  </div>
+  <div class="PIE_UNIVERSIDAD">
+    <P>FACULTAD DE INGENIERÍA INDUSTRIAL Y DE SISTEMAS (FIIS)<br>
+15082, Av. Oscar R. Benavides 450, Cercado 
+de Lima 15082<br>
+(01) 4811424</P>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+function cambiar(){
+var opcion = document.getElementById('temas').value;
+if(opcion != ""){
+document.getElementById('destino').src = opcion;
+}
+}
+//]]>
+</script>
+
+<div class="CONTENEDOR_TITULO">
+  <TABLE>
+  <TR>
+    <TD>GRAFICO DE FALLECIDOS EN EL PERU</TD>
+    <TD>GRAFICO DE FALLECIDOS ACUMULADOS EN EL PERU</TD>
+  </TR></TABLE>
+</div>
+
+<iframe class="iframe_total_total" frameborder="0" scrolling="no" src="graficos_positivos/Positivos_General_Total.html"></iframe>
+<iframe class="iframe_diario_total" frameborder="0" scrolling="no" src="graficos_positivos/Positivos_General_Diario.html"></iframe> 
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<div class="CONTENEDOR_TITULO2">
+  <TABLE>
+  <TR>
+    <TD>GRAFICO DE FALLECIDOS DIARIOS</TD>
+    <TD>GRAFICO DE FALLECIDOS ACUMULADOS</TD>
+  </TR></TABLE>
+</div>
+
+<div CLASS="FORM">
+  <form action="#"> 
+  GRAFICOS:
+<select id="temas" onchange="cambiar();">
+  <option>Seleccionar Departamento</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Amazonas_Fallecidos_Diario.html">Amazonas</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Ancash_Fallecidos_Diario.html">Ancash</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Apurimac_Fallecidos_Diario.html">Apurimac</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Arequipa_Fallecidos_Diario.html">Arequipa</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Ayacucho_Fallecidos_Diario.html">Ayacucho</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Cajamarca_Fallecidos_Diario.html">Cajamarca</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Callao_Fallecidos_Diario.html">Callao</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Cusco_Fallecidos_Diario.html">Cusco</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Huancavelica_Fallecidos_Diario.html">Huancavelica</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Huanuco_Fallecidos_Diario.html">Huanuco</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Ica_Fallecidos_Diario.html">Ica</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Junin_Fallecidos_Diario.html">Junin</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/La_Libertad_Fallecidos_Diario.html">La Libertad</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Lambayeque_Fallecidos_Diario.html">Lambayeque</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Lima_Fallecidos_Diario.html">Lima</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Loreto_Fallecidos_Diario.html">Loreto</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Madre_De_Dios_Fallecidos_Diario.html">Madre de Dios</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Moquegua_Fallecidos_Diario.html">Moquegua</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Pasco_Fallecidos_Diario.html">Pasco</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Piura_Fallecidos_Diario.html">Piura</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Puno_Fallecidos_Diario.html">Puno</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/San_Martin_Fallecidos_Diario.html">San Martin</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Tacna_Fallecidos_Diario.html">Tacna</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Tumbes_Fallecidos_Diario.html">Tumbes</option>
+  <option value="graficos_fallecidos/Fallecidos Diarios/Ucayali_Fallecidos_Diario.html">Ucayali</option>
+</select> 
+</form>
+</div>
+<iframe class="iframe_diario" frameborder="0" scrolling="no" src="about:blank" id="destino" name="destino"></iframe>
+
+<script type="text/javascript">
+//<![CDATA[
+function cambiarTotal(){
+var opcion = document.getElementById('temas1').value;
+if(opcion != ""){
+document.getElementById('destino1').src = opcion;
+}
+}
+//]]>
+</script>
+
+<div CLASS="FORM1">
+  <form action="#"> 
+  GRAFICOS:
+<select id="temas1" onchange="cambiarTotal();">
+  <option>Seleccionar Departamento</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Amazonas_Fallecidos_Totales.html">Amazonas</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Ancash_Fallecidos_Totales.html">Ancash</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Apurimac_Fallecidos_Totales.html">Apurimac</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Arequipa_Fallecidos_Totales.html">Arequipa</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Ayacucho_Fallecidos_Totales.html">Ayacucho</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Cajamarca_Fallecidos_Totales.html">Cajamarca</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Callao_Fallecidos_Totales.html">Callao</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Cusco_Fallecidos_Totales.html">Cusco</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Huancavelica_Fallecidos_Totales.html">Huancavelica</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Huanuco_Fallecidos_Totales.html">Huanuco</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Ica_Fallecidos_Totales.html">Ica</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Junin_Fallecidos_Totales.html">Junin</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/La_Libertad_Fallecidos_Totales.html">La Libertad</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Lambayeque_Fallecidos_Totales.html">Lambayeque</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Lima_Fallecidos_Totales.html">Lima</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Loreto_Fallecidos_Totales.html">Loreto</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Madre_De_Dios_Fallecidos_Totales.html">Madre de Dios</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Moquegua_Fallecidos_Totales.html">Moquegua</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Pasco_Fallecidos_Totales.html">Pasco</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Piura_Fallecidos_Totales.html">Piura</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Puno_Fallecidos_Totales.html">Puno</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/San_Martin_Fallecidos_Totales.html">San Martin</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Tacna_Fallecidos_Totales.html">Tacna</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Tumbes_Fallecidos_Totales.html">Tumbes</option>
+  <option value="graficos_fallecidos/Fallecidos Totales/Ucayali_Fallecidos_Totales.html">Ucayali</option>
+</select> 
+</form>
+</div>
+<iframe class="iframe_total" frameborder="0" scrolling="no" src="about:blank" id="destino1" name="destino1"></iframe>
+
+
+<div class="CONTENEDOR_TITULO4">
+  <TABLE>
+  <TR>
+    <TD>GRAFICO DE PREDICCION DE FALLECIDOS DIARIOS EN EL PERU</TD>
+    <TD>GRAFICO DE PREDICCION DE FALLECIDOS ACUMULADOS EN EL PERU</TD>
+  </TR></TABLE>
+</div>
+
+<iframe class="iframe_total_total1" frameborder="0" scrolling="no" src="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/General_Fallecidos_Prediccion.png"></iframe>
+<iframe class="iframe_diario_total1" frameborder="0" scrolling="no" src="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/General_Fallecidos_Totales_Prediccion.png"></iframe> 
+
+<script type="text/javascript">
+//<![CDATA[
+function cambiarDiarioPrediccion(){
+var opcion = document.getElementById('temas2').value;
+if(opcion != ""){
+document.getElementById('destino2').src = opcion;
+}
+}
+//]]>
+</script>
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<div class="CONTENEDOR_TITULO5">
+  <TABLE>
+  <TR>
+    <TD>GRAFICO DE POSITIVOS DIARIOS PREDICCION</TD>
+    <TD>GRAFICO DE POSITIVOS ACUMULADOS PREDICCION</TD>
+  </TR></TABLE>
+</div>
+<br><br>
+<div CLASS="FORM2">
+  <form action="#"> 
+  GRAFICOS PREDICTIVOS:
+<select id="temas2" onchange="cambiarDiarioPrediccion();">
+  <option>Seleccionar Departamento</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Amazonas_Fallecidos_Prediccion.png">Amazonas</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Ancash_Fallecidos_Prediccion.png">Ancash</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Apurimac_Fallecidos_Prediccion.png">Apurimac</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Arequipa_Fallecidos_Prediccion.png">Arequipa</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Ayacucho_Fallecidos_Prediccion.png">Ayacucho</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Cajamarca_Fallecidos_Prediccion.png">Cajamarca</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Callao_Fallecidos_Prediccion.png">Callao</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Cusco_Fallecidos_Prediccion.png">Cusco</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Huancavelica_Fallecidos_Prediccion.png">Huancavelica</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Huanuco_Fallecidos_Prediccion.png">Huanuco</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Ica_Fallecidos_Prediccion.png">Ica</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Junin_Fallecidos_Prediccion.png">Junin</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/La_Libertad_Fallecidos_Prediccion.png">La Libertad</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Lambayeque_Fallecidos_Prediccion.png">Lambayeque</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Lima_Fallecidos_Prediccion.png">Lima</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Loreto_Fallecidos_Prediccion.png">Loreto</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Madre_De_Dios_Fallecidos_Prediccion.png">Madre de Dios</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Moquegua_Fallecidos_Prediccion.png">Moquegua</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Pasco_Fallecidos_Prediccion.png">Pasco</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Piura_Fallecidos_Prediccion.png">Piura</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Puno_Fallecidos_Prediccion.png">Puno</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/San_Martin_Fallecidos_Prediccion.png">San Martin</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Tacna_Fallecidos_Prediccion.png">Tacna</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Tumbes_Fallecidos_Prediccion.png">Tumbes</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Diarios Prediccion/Ucayali_Fallecidos_Prediccion.png">Ucayali</option>
+</select> 
+</form>
+</div>
+<iframe class="iframe_diario_prediccion" frameborder="0" scrolling="no" src="about:blank" id="destino2" name="destino2"></iframe>
+
+
+<script type="text/javascript">
+//<![CDATA[
+function cambiarTotalPrediccion(){
+var opcion = document.getElementById('temas3').value;
+if(opcion != ""){
+document.getElementById('destino3').src = opcion;
+}
+}
+//]]>
+</script>
+
+<div CLASS="FORM3">
+  <form action="#"> 
+  GRAFICOS PREDICTIVOS:
+<select id="temas3" onchange="cambiarTotalPrediccion();">
+  <option>Seleccionar Departamento</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Amazonas_Fallecidos_Totales_Prediccion.png">Amazonas</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Ancash_Fallecidos_Totales_Prediccion.png">Ancash</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Apurimac_Fallecidos_Totales_Prediccion.png">Apurimac</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Arequipa_Fallecidos_Totales_Prediccion.png">Arequipa</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Ayacucho_Fallecidos_Totales_Prediccion.png">Ayacucho</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Cajamarca_Fallecidos_Totales_Prediccion.png">Cajamarca</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Callao_Fallecidos_Totales_Prediccion.png">Callao</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Cusco_Fallecidos_Totales_Prediccion.png">Cusco</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Huancavelica_Fallecidos_Totales_Prediccion.png">Huancavelica</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Huanuco_Fallecidos_Totales_Prediccion.png">Huanuco</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Ica_Fallecidos_Totales_Prediccion.png">Ica</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Junin_Fallecidos_Totales_Prediccion.png">Junin</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/La_Libertad_Fallecidos_Totales_Prediccion.png">La Libertad</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Lambayeque_Fallecidos_Totales_Prediccion.png">Lambayeque</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Lima_Fallecidos_Totales_Prediccion.png">Lima</option>
+
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Loreto_Fallecidos_Totales_Prediccion.png">Loreto</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Madre_De_Dios_Fallecidos_Totales_Prediccion.png">Madre de Dios</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Moquegua_Fallecidos_Totales_Prediccion.png">Moquegua</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Pasco_Fallecidos_Totales_Prediccion.png">Pasco</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Piura_Fallecidos_Totales_Prediccion.png">Piura</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Puno_Fallecidos_Totales_Prediccion.png">Puno</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/San_Martin_Fallecidos_Totales_Prediccion.png">San Martin</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Tacna_Fallecidos_Totales_Prediccion.png">Tacna</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Tumbes_Fallecidos_Totales_Prediccion.png">Tumbes</option>
+  <option value="graficos_fallecidos_prediccion/Fallecidos Totales Prediccion/Ucayali_Fallecidos_Totales_Prediccion.png">Ucayali</option>
+</select> 
+</form>
+</div>
+<iframe class="iframe_total_prediccion" frameborder="0" scrolling="no" src="about:blank" id="destino3" name="destino3"></iframe>
+
+<img id="FONDO" src="imagenes/Imagen_40.png">
+<img id="FONDO2" src="imagenes/Imagen_40_bc@2x.png">
+<img id="FONDO3" src="imagenes/Imagen_40_.png">
+<img id="FONDO5" src="imagenes/Imagen_40_.png">
+<img id="FONDO6" src="imagenes/Imagen_40.png">
+<img id="FONDO7" src="imagenes/Imagen_40.png">
+<img id="FONDO8" src="imagenes/Imagen_40_.png">
+<img id="FONDO9" src="imagenes/Imagen_40.png">
+
+  
+
+</html>

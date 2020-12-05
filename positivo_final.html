@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title</title>
+</head>
+
+<body>
+
+<LINK REL=StyleSheet HREF="styles.css" TYPE="text/css" MEDIA=screen>
+   
+   <div class="ENCABEZADO"> 
+  <a><img src="imagenes/Imagen_1.png"></a>
+  <div class="TITULO">INFORMACIÓN Y GRÁFICOS PRECTIVOS DEL COVID-19 EN EL PERÚ</div></div>
+    
+   <div class="CONTENEDOR_ICONOS_HOSPITALIZADOS"> 
+  <a href="index.html"><img  src="imagenes/Imagen_39.png"></a>
+  <a href="fallecidos_final.html"><img  src="imagenes/Imagen_7.png"></a>
+  <a href="HOSPITALIZADOS.html"><img  src="imagenes/Imagen_36.png"></a>
+  <a href="positivo_final.html"><img  src="imagenes/Imagen_37.png"></a>
+  <a href="recuperado.html"><img  src="imagenes/Imagen_10.png"></a><BR><br>
+  <TABLE >
+    <TR>
+    <td>INICIO</td>
+    <td>FALLECIDOS</td>
+    <td>HOSPITALIZADOS</td>
+    <td>POSITIVOS</td>
+    <td>RECUPERADOS</td>
+    </TR>
+  </TABLE>
+  </div>
+<div class="PIE_PAGINA1"> 
+ <img src="imagenes/Imagen_30.png">
+  <div class="PIE_NOSOTROS">
+    INFORMATE MAS<BR>
+    <a href="nosotros.html">¿Quiénes somos?<br>Finalidad de la página<br><br><br></a>
+    DATOS SACADOS DE:<br>
+    <a href="https://www.minsa.gob.pe/datosabiertos/" target="_blank">MINSA<br></a>
+    <a href="https://www.minsa.gob.pe/datosabiertos/?op=22#" target="_blank">SINADEF</a>
+  </div>
+  <div class="PIE_UNIVERSIDAD">
+    <P>FACULTAD DE INGENIERÍA INDUSTRIAL Y DE SISTEMAS (FIIS)<br>
+15082, Av. Oscar R. Benavides 450, Cercado 
+de Lima 15082<br>
+(01) 4811424</P>
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+function cambiar(){
+var opcion = document.getElementById('temas').value;
+if(opcion != ""){
+document.getElementById('destino').src = opcion;
+}
+}
+//]]>
+</script>
+
+<div class="CONTENEDOR_TITULO">
+  <TABLE>
+  <TR>
+    <TD>GRAFICO DE POSITIVOS EN EL PERU</TD>
+    <TD>GRAFICO DE POSITIVOS ACUMULADOS EN EL PERU</TD>
+  </TR></TABLE>
+</div>
+
+<iframe class="iframe_total_total" frameborder="0" scrolling="no" src="graficos_positivos/Positivos_General_Total.html"></iframe>
+<iframe class="iframe_diario_total" frameborder="0" scrolling="no" src="graficos_positivos/Positivos_General_Diario.html"></iframe> 
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<div class="CONTENEDOR_TITULO2">
+  <TABLE>
+  <TR>
+    <TD>GRAFICO DE POSITIVOS DIARIOS</TD>
+    <TD>GRAFICO DE POSITIVOS ACUMULADOS</TD>
+  </TR></TABLE>
+</div>
+
+<div CLASS="FORM">
+  <form action="#"> 
+  GRAFICOS:
+<select id="temas" onchange="cambiar();">
+  <option selected="selected" disabled="disabled">Seleccionar Departamento</option>
+  <option value="graficos_positivos/Infectados Diarios/Amazonas_Diario.html">Amazonas</option>
+  <option value="graficos_positivos/Infectados Diarios/Ancash_Diario.html">Ancash</option>
+  <option value="graficos_positivos/Infectados Diarios/Apurimac_Diario.html">Apurimac</option>
+  <option value="graficos_positivos/Infectados Diarios/Arequipa_Diario.html">Arequipa</option>
+  <option value="graficos_positivos/Infectados Diarios/Ayacucho_Diario.html">Ayacucho</option>
+  <option value="graficos_positivos/Infectados Diarios/Cajamarca_Diario.html">Cajamarca</option>
+  <option value="graficos_positivos/Infectados Diarios/Callao_Diario.html">Callao</option>
+  <option value="graficos_positivos/Infectados Diarios/Cusco_Diario.html">Cusco</option>
+  <option value="graficos_positivos/Infectados Diarios/Huancavelica_Diario.html">Huancavelica</option>
+  <option value="graficos_positivos/Infectados Diarios/Huanuco_Diario.html">Huanuco</option>
+  <option value="graficos_positivos/Infectados Diarios/Ica_Diario.html">Ica</option>
+  <option value="graficos_positivos/Infectados Diarios/Junin_Diario.html">Junin</option>
+  <option value="graficos_positivos/Infectados Diarios/La_Libertad_Diario.html">La Libertad</option>
+  <option value="graficos_positivos/Infectados Diarios/Lambayeque_Diario.html">Lambayeque</option>
+  <option value="graficos_positivos/Infectados Diarios/Lima_Diario.html">Lima</option>
+  <option value="graficos_positivos/Infectados Diarios/Lima_Region_Diario.html">Lima Region</option>
+  <option value="graficos_positivos/Infectados Diarios/Loreto_Diario.html">Loreto</option>
+  <option value="graficos_positivos/Infectados Diarios/Madre_De_Dios_Diario.html">Madre de Dios</option>
+  <option value="graficos_positivos/Infectados Diarios/Moquegua_Diario.html">Moquegua</option>
+  <option value="graficos_positivos/Infectados Diarios/Pasco_Diario.html">Pasco</option>
+  <option value="graficos_positivos/Infectados Diarios/Piura_Diario.html">Piura</option>
+  <option value="graficos_positivos/Infectados Diarios/Puno_Diario.html">Puno</option>
+  <option value="graficos_positivos/Infectados Diarios/San_Martin_Diario.html">San Martin</option>
+  <option value="graficos_positivos/Infectados Diarios/Tacna_Diario.html">Tacna</option>
+  <option value="graficos_positivos/Infectados Diarios/Tumbes_Diario.html">Tumbes</option>
+  <option value="graficos_positivos/Infectados Diarios/Ucayali_Diario.html">Ucayali</option>
+</select> 
+</form>
+</div>
+<iframe class="iframe_diario" frameborder="0" scrolling="no" src="about:blank" id="destino" name="destino"></iframe>
+
+<script type="text/javascript">
+//<![CDATA[
+function cambiarTotal(){
+var opcion = document.getElementById('temas1').value;
+if(opcion != ""){
+document.getElementById('destino1').src = opcion;
+}
+}
+//]]>
+</script>
+
+<div CLASS="FORM1">
+  <form action="#"> 
+  GRAFICOS:
+<select id="temas1" onchange="cambiarTotal();">
+  <option selected="selected" disabled="disabled">Seleccionar Departamento</option>
+  <option value="graficos_positivos/Infectados Totales/Amazonas_Total.html">Amazonas</option>
+  <option value="graficos_positivos/Infectados Totales/Ancash_Total.html">Ancash</option>
+  <option value="graficos_positivos/Infectados Totales/Apurimac_Total.html">Apurimac</option>
+  <option value="graficos_positivos/Infectados Totales/Arequipa_Total.html">Arequipa</option>
+  <option value="graficos_positivos/Infectados Totales/Ayacucho_Total.html">Ayacucho</option>
+  <option value="graficos_positivos/Infectados Totales/Cajamarca_Total.html">Cajamarca</option>
+  <option value="graficos_positivos/Infectados Totales/Callao_Total.html">Callao</option>
+  <option value="graficos_positivos/Infectados Totales/Cusco_Total.html">Cusco</option>
+  <option value="graficos_positivos/Infectados Totales/Huancavelica_Total.html">Huancavelica</option>
+  <option value="graficos_positivos/Infectados Totales/Huanuco_Total.html">Huanuco</option>
+  <option value="graficos_positivos/Infectados Totales/Ica_Total.html">Ica</option>
+  <option value="graficos_positivos/Infectados Totales/Junin_Total.html">Junin</option>
+  <option value="graficos_positivos/Infectados Totales/La_Libertad_Total.html">La Libertad</option>
+  <option value="graficos_positivos/Infectados Totales/Lambayeque_Total.html">Lambayeque</option>
+  <option value="graficos_positivos/Infectados Totales/Lima_Total.html">Lima</option>
+  <option value="graficos_positivos/Infectados Totales/Lima_Region_Total.html">Lima Region</option>
+  <option value="graficos_positivos/Infectados Totales/Loreto_Total.html">Loreto</option>
+  <option value="graficos_positivos/Infectados Totales/Madre_De_Dios_Total.html">Madre de Dios</option>
+  <option value="graficos_positivos/Infectados Totales/Moquegua_Total.html">Moquegua</option>
+  <option value="graficos_positivos/Infectados Totales/Pasco_Total.html">Pasco</option>
+  <option value="graficos_positivos/Infectados Totales/Piura_Total.html">Piura</option>
+  <option value="graficos_positivos/Infectados Totales/Puno_Total.html">Puno</option>
+  <option value="graficos_positivos/Infectados Totales/San_Martin_Total.html">San Martin</option>
+  <option value="graficos_positivos/Infectados Totales/Tacna_Total.html">Tacna</option>
+  <option value="graficos_positivos/Infectados Totales/Tumbes_Total.html">Tumbes</option>
+  <option value="graficos_positivos/Infectados Totales/Ucayali_Total.html">Ucayali</option>
+</select> 
+</form>
+</div>
+<iframe class="iframe_total" frameborder="0" scrolling="no" src="about:blank" id="destino1" name="destino1"></iframe>
+
+
+<div class="CONTENEDOR_TITULO4">
+  <TABLE>
+  <TR>
+    <TD>GRAFICO DE PREDICCION DE POSITIVOS EN EL PERU</TD>
+    <TD>GRAFICO DE PREDICCION DE POSITIVOS ACUMULADOS EN EL PERU</TD>
+  </TR></TABLE>
+</div>
+
+<iframe class="iframe_total_total1" frameborder="0" scrolling="no" src="graficos_positivos_prediccion/Infectados Diarios Prediccion/General_Diario_Prediccion.png"></iframe>
+<iframe class="iframe_diario_total1" frameborder="0" scrolling="no" src="graficos_positivos_prediccion/Infectados Totales Prediccion/General_Total_Prediccion.png"></iframe> 
+
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+function cambiarDiarioPrediccion(){
+var opcion = document.getElementById('temas2').value;
+if(opcion != ""){
+document.getElementById('destino2').src = opcion;
+}
+}
+//]]>
+</script>
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<div class="CONTENEDOR_TITULO5">
+  <TABLE>
+  <TR>
+    <TD>GRAFICO DE POSITIVOS DIARIOS PREDICCION</TD>
+    <TD>GRAFICO DE POSITIVOS ACUMULADOS PREDICCION</TD>
+  </TR></TABLE>
+</div>
+
+<div CLASS="FORM2">
+  <form action="#"> 
+  GRAFICOS PREDICTIVOS:
+<select id="temas2" onchange="cambiarDiarioPrediccion();">
+  <option selected="selected" disabled="disabled">Seleccionar Departamento</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Amazonas_Diario_Prediccion.png">Amazonas</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Ancash_Diario_Prediccion.png">Ancash</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Apurimac_Diario_Prediccion.png">Apurimac</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Arequipa_Diario_Prediccion.png">Arequipa</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Ayacucho_Diario_Prediccion.png">Ayacucho</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Cajamarca_Diario_Prediccion.png">Cajamarca</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Callao_Diario_Prediccion.png">Callao</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Cusco_Diario_Prediccion.png">Cusco</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Huancavelica_Diario_Prediccion.png">Huancavelica</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Huanuco_Diario_Prediccion.png">Huanuco</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Ica_Diario_Prediccion.png">Ica</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Junin_Diario_Prediccion.png">Junin</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/La_Libertad_Diario_Prediccion.png">La Libertad</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Lambayeque_Diario_Prediccion.png">Lambayeque</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Lima_Diario_Prediccion.png">Lima</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Lima_Region_Diario_Prediccion.png">Lima Region</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Loreto_Diario_Prediccion.png">Loreto</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Madre_De_Dios_Diario_Prediccion.png">Madre de Dios</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Moquegua_Diario_Prediccion.png">Moquegua</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Pasco_Diario_Prediccion.png">Pasco</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Piura_Diario_Prediccion.png">Piura</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Puno_Diario_Prediccion.png">Puno</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/San_Martin_Diario_Prediccion.png">San Martin</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Tacna_Diario_Prediccion.png">Tacna</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Tumbes_Diario_Prediccion.png">Tumbes</option>
+  <option value="graficos_positivos_prediccion/Infectados Diarios Prediccion/Ucayali_Diario_Prediccion.png">Ucayali</option>
+</select> 
+</form>
+</div>
+
+<iframe class="iframe_diario_prediccion" frameborder="0" scrolling="no" src="about:blank" id="destino2" name="destino2"></iframe>
+
+
+<script type="text/javascript">
+//<![CDATA[
+function cambiarTotalPrediccion(){
+var opcion = document.getElementById('temas3').value;
+if(opcion != ""){
+document.getElementById('destino3').src = opcion;
+}
+}
+//]]>
+</script>
+<br><br><br>
+<div CLASS="FORM3">
+  <form action="#"> 
+  GRAFICOS PREDICTIVOS:
+<select id="temas3" onchange="cambiarTotalPrediccion();">
+  <option selected="selected" disabled="disabled">Seleccionar Departamento</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Amazonas_Total_Prediccion.png">Amazonas</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Ancash_Total_Prediccion.png">Ancash</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Apurimac_Total_Prediccion.png">Apurimac</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Arequipa_Total_Prediccion.png">Arequipa</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Ayacucho_Total_Prediccion.png">Ayacucho</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Cajamarca_Total_Prediccion.png">Cajamarca</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Callao_Total_Prediccion.png">Callao</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Cusco_Total_Prediccion.png">Cusco</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Huancavelica_Total_Prediccion.png">Huancavelica</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Huanuco_Total_Prediccion.png">Huanuco</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Ica_Total_Prediccion.png">Ica</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Junin_Total_Prediccion.png">Junin</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/La_Libertad_Total_Prediccion.png">La Libertad</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Lambayeque_Total_Prediccion.png">Lambayeque</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Lima_Total_Prediccion.png">Lima</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Lima_Region_Total_Prediccion.png">Lima Region</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Loreto_Total_Prediccion.png">Loreto</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Madre_De_Dios_Total_Prediccion.png">Madre de Dios</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Moquegua_Total_Prediccion.png">Moquegua</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Pasco_Total_Prediccion.png">Pasco</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Piura_Total_Prediccion.png">Piura</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Puno_Total_Prediccion.png">Puno</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/San_Martin_Total_Prediccion.png">San Martin</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Tacna_Total_Prediccion.png">Tacna</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Tumbes_Total_Prediccion.png">Tumbes</option>
+  <option value="graficos_positivos_prediccion/Infectados Totales Prediccion/Ucayali_Total_Prediccion.png">Ucayali</option>
+</select> 
+</form>
+</div>
+<iframe class="iframe_total_prediccion_positivo" frameborder="0" scrolling="no" src="about:blank" id="destino3" name="destino3"></iframe>
+
+
+
+<img id="FONDO" src="imagenes/Imagen_40.png">
+<img id="FONDO2" src="imagenes/Imagen_40_bc@2x.png">
+<img id="FONDO3" src="imagenes/Imagen_40_.png">
+<img id="FONDO5" src="imagenes/Imagen_40_.png">
+<img id="FONDO6" src="imagenes/Imagen_40.png">
+<img id="FONDO7" src="imagenes/Imagen_40.png">
+<img id="FONDO8" src="imagenes/Imagen_40_.png">
+<img id="FONDO9" src="imagenes/Imagen_40.png">
+  
+</html>
